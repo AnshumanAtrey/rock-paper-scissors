@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Rock Paper Scissors | Online Game</title>
+  </head>
+  <body class="h-screen w-screen bg-neutral-800 flex flex-col items-center">
+    <h1
+      class="py-8 text-white drop-shadow-[3px_3px_0px_rgb(245,158,11)] text-center text-5xl font-semibold"
+    >
+      Play Online <br />
+      Rock Paper Scissors
+    </h1>
+    <div id="result" class="py-8 text-4xl font-bold">Let's Play</div>
+    <div id="playground" class="flex flex-row items-center gap-4">
+      <!-- Player -->
+      <div class="flex flex-col items-center">
+        <div
+          class="text-6xl w-40 h-40 border border-white bg-neutral-900 rounded-md flex justify-center items-center"
+        >
+          <span id="player">❔</span>
+        </div>
+        <span>You</span>
+      </div>
+      <span class="text-white">vs</span>
+      <!-- Computer -->
+      <div class="flex flex-col items-center">
+        <div
+          class="text-6xl w-40 h-40 border border-white bg-neutral-900 rounded-md flex justify-center items-center"
+        >
+          <span id="computer">❔</span>
+        </div>
+        <span>Computer</span>
+      </div>
+    </div>
+    <div id="selction" class="flex flex-col pt-14 items-center">
+      <div id="choose" class="flex flex-row items-center gap-6">
+        <button
+          id="rock"
+          class="text-5xl leading-none border-2 border-white transition duration-300 hover:drop-shadow-[0px_0px_0px_rgb(245,158,11)] bg-neutral-900 rounded-md w-24 h-24 flex items-center drop-shadow-[4px_4px_0px_rgb(245,158,11)] justify-center"
+        >
+          🪨
+        </button>
+        <button
+          id="paper"
+          class="text-5xl leading-none border-2 border-white bg-neutral-900 rounded-md w-24 h-24 flex items-center drop-shadow-[4px_4px_0px_rgb(245,158,11)] transition duration-300 hover:drop-shadow-[0px_0px_0px_rgb(245,158,11)] justify-center"
+        >
+          📄
+        </button>
+        <button
+          id="scissor"
+          class="text-5xl leading-none border-2 border-white bg-neutral-900 transition duration-300 hover:drop-shadow-[0px_0px_0px_rgb(245,158,11)] rounded-md w-24 h-24 flex items-center drop-shadow-[4px_4px_0px_rgb(245,158,11)] justify-center"
+        >
+          ✂️
+        </button>
+      </div>
+      <span class="text-white pt-6">Choose one of them</span>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
