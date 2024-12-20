@@ -613,11 +613,6 @@ video {
   background-color: rgb(23 23 23 / var(--tw-bg-opacity));
 }
 
-.py-16 {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
-}
-
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
@@ -635,18 +630,13 @@ video {
   text-align: center;
 }
 
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
-}
-
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
 }
 
-.text-8xl {
-  font-size: 6rem;
+.text-5xl {
+  font-size: 3rem;
   line-height: 1;
 }
 
@@ -655,12 +645,12 @@ video {
   line-height: 1;
 }
 
-.font-semibold {
-  font-weight: 600;
-}
-
 .font-bold {
   font-weight: 700;
+}
+
+.font-semibold {
+  font-weight: 600;
 }
 
 .leading-none {
@@ -672,28 +662,13 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.drop-shadow-\[6px_6px_0px_rgb\(245\2c 158\2c 11\)\] {
-  --tw-drop-shadow: drop-shadow(6px 6px 0px rgb(245,158,11));
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-
-.drop-shadow-\[44px_6px_0px_rgb\(245\2c 158\2c 11\)\] {
-  --tw-drop-shadow: drop-shadow(44px 6px 0px rgb(245,158,11));
+.drop-shadow-\[3px_3px_0px_rgb\(245\2c 158\2c 11\)\] {
+  --tw-drop-shadow: drop-shadow(3px 3px 0px rgb(245,158,11));
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
 .drop-shadow-\[4px_4px_0px_rgb\(245\2c 158\2c 11\)\] {
   --tw-drop-shadow: drop-shadow(4px 4px 0px rgb(245,158,11));
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-
-.drop-shadow-\[2px_2px_0px_rgb\(245\2c 158\2c 11\)\] {
-  --tw-drop-shadow: drop-shadow(2px 2px 0px rgb(245,158,11));
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-
-.drop-shadow-\[3px_3px_0px_rgb\(245\2c 158\2c 11\)\] {
-  --tw-drop-shadow: drop-shadow(3px 3px 0px rgb(245,158,11));
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
@@ -714,6 +689,14 @@ video {
   padding: 0;
   box-sizing: border-box;
   font-family: "Fira Code", monospace;
+}
+
+.hover\:-mt-1:hover {
+  margin-top: -0.25rem;
+}
+
+.hover\:-mb-1:hover {
+  margin-bottom: -0.25rem;
 }
 
 .hover\:drop-shadow-\[0px_0px_0px_rgb\(245\2c 158\2c 11\)\]:hover {
